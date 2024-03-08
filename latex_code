@@ -1,0 +1,245 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+	{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+    	{#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  	\textbf{#1} & \textbf{\small #2} \\
+  	\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+  	\small#1 & \textbf{\small #4}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+	{\Huge \scshape AKASH CHAND} \\ \vspace{1pt}
+	Khatima, Uttarakhand \\ \vspace{1pt}
+	\small \raisebox{-0.1\height}\faPhone\ +91 9389550242 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{chandakash958@gmail.com}} ~
+	\href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/akash-chand-204360200/}}
+	\vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{College Of Technology ,Pantnagar}{August 2020 - June 2024}
+  	{Bachelor of Technology in Computer Engineering (CGPA of 7.6)}{Uttarakhand, India}
+   \resumeSubheading
+  	{Jawahar Navodaya Vidyalaya,Rudrapur}{August 2017 - June 2019}
+  	{Percentage of 89.6}{Uttarakhand, India}
+  
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+ 
+
+%-----------PROJECTS-----------
+\section{Projects }
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+      	{\textbf{Coursify App } $|$ \emph{MongoDB,ExpressJS, React Js, NodeJs,Tailwind Css}   $|$ {\href{https://github.com/akkuacr/E-commerce-website-backend}{ Link}}}{January 2019}
+      	\resumeItemListStart
+                \resumeItem{It is a \textbf{ Full Stack e-commerce project} whose client side and sever side are as follows.}
+        	\resumeItem{Server : This project encompasses a secure user authentication system employing \textbf{JWT} tokens for login/logout operations, role-based access controls for enhanced security, and seamless subscription management. Additionally, the integration of \textbf{Razorpay} ensures efficient and secure payment processing.}
+         
+         
+        	\resumeItem{Client : A Dynamic client-side application with robust \textbf{API handling}, user components, and an admin dashboard. Integrated payment and subscription functionalities, employing Tailwind for polished design.}
+      	\resumeItemListEnd
+	\vspace{-13pt}
+           \resumeProjectHeading
+      	{\textbf{Chat App} $|$ \emph{NodeJs,ReactJs,Web Sockets}  $|$ {\href{https://github.com/akkuacr/A-Chat-App}{ Link}}}{January 2019}
+      	\resumeItemListStart
+        	\resumeItem{ Developed a real-time chat application leveraging \textbf{Nodejs} for server-side \textbf{socket programming} and \textbf{Reactjs} for the frontend. Empowers users with seamless one-on-one and group communication. The app offers an intuitive interface, fostering dynamic and engaging conversations in real-time.}
+      	\resumeItemListEnd
+       \vspace{-13pt}
+  	\resumeProjectHeading
+      	{\textbf{Pokedex-app} $|$ \emph{React Js}  $|$ {\href{https://6571a8c801f8a077382693f9--eclectic-otter-115818.netlify.app/}{ Link}}}{January 2019}
+      	\resumeItemListStart
+        	\resumeItem{ This application is inspired from pokemons and made using pokeapi.User can view different pokemons,their details ,stats
+,evolution chain and their moves}
+      	\resumeItemListEnd
+        \vspace{-13pt}
+  	\resumeProjectHeading
+      	{\textbf{Countries Info App} $|$ \emph{Html, Css and Javascript}  $|$ {\href{https://github.com/akkuacr/countriesInfoApp}{ Link}}}{January 2019}
+      	\resumeItemListStart
+        	\resumeItem{ This web app is based on REST country API . It gives us all information about all countries and their border countries}
+      	\resumeItemListEnd
+
+       
+	\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%
+%-----------Achievements-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem{Highest rating of \textbf{ 1400} at Codeforces, which is the top site in terms of participation of programmers across globe.}
+    	\resumeItem{Ranked under \textbf{150} at Codechef contest which ranks among the top sites for competitive programmers. Highest rating of 1830 and rated \textbf{4*}. }
+    	 
+    	\resumeItem{Secured all India rank of \textbf{367,434 ,567 } respectively in Codechef's Starters in the month of October and November 2023 among 20k+ participants.}
+       \resumeItem{ \textbf{Knight Badged } at Leetcode, with a contest rating more than 1900}
+    	\resumeItem{Solved more than 700+ problems across platforms.}
+    	 \resumeItem{Certifed for \textbf{Intermediate Problem Solving} from Hackerrank}
+  	\resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+ 
+ %
+%-----------Profile Links-----------
+\section{Profile Links}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem {\href{https://www.codechef.com/users/john_wick001}{Codechef}}
+    	\resumeItem {\href{https://codeforces.com/profile/akkuacr_001}{Codeforces}}
+    	\resumeItem {\href{https://leetcode.com/aurnavchand_01/}{Leetcode}}
+    	\resumeItem {\href{https://www.hackerrank.com/profile/chandakash958}{Hackerrank}}
+  	\resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+ 	\textbf{Languages}{: C++, Python, Tailwind CSS, JavaScript, SQL} \\
+ 	\textbf{Technologies/Frameworks/Libraries}{: NodeJS,ExpressJS, ReactJS,MongoDB} \\
+   \textbf{Core}{: Data Structures ,Design and Analysis of Algorithms,System Design ,OOPS,DBMS,Computer Networks}
+	}}
+       \\
+   
+    \textbf{Tools for IDE}{: POSTMAN for API Testing,Git Bash,Git and Github for distribution System}
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+ %----------Extra Curricular Activites
+ \section{Extra - Curricular Activites}
+  \begin{itemize}[leftmargin=0.07in, label={}]
+  \resumeItemListStart
+  \resumeItem{Organize national level fests and events in College of Technology, Pantnagar as a member of Engineering
+and Technology Society, Pantnagar
+}
+ \resumeItem{ Member of, branch chapter of Computer Engineering, \textbf{INTERFACE} and organized various coding
+competitions and technical quizzes as a part of it.}
+
+  \resumeItemListEnd
+
+\end{document}
